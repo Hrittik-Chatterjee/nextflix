@@ -2,12 +2,12 @@
 import "./globals.css";
 import Header from "./components/Header";
 
-import { Mulish } from 'next/font/google'
- 
+import { Mulish } from 'next/font/google';
+
 const mulish = Mulish({
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
+    weight: ['300', '400', '500', '600', '700', '800', '900'],
+    subsets: ['latin'],
+    display: 'swap'
 })
 
 export const metadata = {
