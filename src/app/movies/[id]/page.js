@@ -22,7 +22,7 @@ const page = async ({params}) => {
     
     return (
         <div className={styles.container}>
-        <h2 className={styles.movie_title}>   Netflix \ <span> {main_data.type} </span> </h2>
+        <h2 className={styles.movie_title}>   Nextflix \ <span> {main_data.type} </span> </h2>
         <div className={styles.card_section}>
             <div>
                 <Image src={main_data.backgroundImage.url} alt={main_data.title} width={600} height={300} />
